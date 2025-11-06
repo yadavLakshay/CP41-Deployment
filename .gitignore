@@ -1,0 +1,40 @@
+# Python cache & logs
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TensorFlow temporary files
+*.pbtxt
+checkpoint/
+saved_model/
+
+# Local data or output
+*.npz
+*.h5
+*.pkl
+*.joblib
+
+# Build & Docker
+*.tar
+*.gz
+*.zip
+*.whl
+*.egg-info/
+.cache/
+docker-compose.yml
+
+# Render build logs
+render.yaml.bak
+
+# Optional: ignore local test data
+assets/Dataset/
