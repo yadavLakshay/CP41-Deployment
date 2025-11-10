@@ -24,22 +24,26 @@ Upload an MRI scan to detect brain tumor presence using the deployed EfficientNe
 ```
 CP41-Deployment/
 ├── app/
-│   ├── main.py
-│   ├── preprocessing.py
-│   ├── utils.py
-│   └── validator.py
+│ ├── pycache/
+│ ├── static/
+│ │ ├── script.js
+│ │ └── style.css
+│ ├── templates/
+│ │ └── index.html
+│ ├── main.py
+│ ├── preprocessing.py
+│ ├── utils.py
+│ └── validator.py
 ├── assets/
-│   ├── best_efficientnetb0_fixed.keras
-│   └── ood_stats.npz
-├── static/
-│   ├── script.js
-│   └── style.css
-├── templates/
-│   └── index.html
+│ ├── best_efficientnetb0_fixed.keras
+│ └── ood_stats.npz
+├── scripts/
+│ └── build_ood_stats.py
+├── .dockerignore
+├── .gitignore
 ├── Dockerfile
-├── requirements.txt
-├── render.yaml
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 ---
